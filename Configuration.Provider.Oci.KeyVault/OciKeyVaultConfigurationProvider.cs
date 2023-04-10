@@ -41,7 +41,8 @@ internal sealed class OciKeyVaultConfigurationProvider : ConfigurationProvider
 
         var request = new ListSecretsRequest
         {
-            CompartmentId = _source._compartmentId
+            CompartmentId = _source._compartmentId,
+            LifecycleState = SecretSummary.LifecycleStateEnum.Active
         };
 
         if (!string.IsNullOrWhiteSpace(_source._configuration.VaultId))

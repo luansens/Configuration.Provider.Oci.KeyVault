@@ -4,6 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>Luansens.Configuration.Provider.Oci.KeyVault</RootNamespace>
+    <PackageId>Luansens.Configuration.Provider.Oci.KeyVault</PackageId>
+    <Version>1.0.1</Version>
+    <Description>.NET Core configuration provider for OCI KeyVault.</Description>
+    <Authors>Luan D. Sensolo</Authors>
+    <Company>https://github.com/luansens</Company>
+    <AssemblyName>Luansens.Configuration.Provider.Oci.KeyVault</AssemblyName>
+    <RepositoryUrl>https://github.com/luansens/Configuration.Provider.Oci.KeyVault</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/luansens/Configuration.Provider.Oci.KeyVault</PackageProjectUrl>
+    <PackageTags>.net;dotnet;core;configuration;oci;keyVault</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
