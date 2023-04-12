@@ -69,7 +69,7 @@ var provider = new ConfigFileAuthenticationDetailsProvider("DEFAULT");
 
 configBuilder.AddOciKeyVault(provider, compartmentId, setup => {
     setup.ClientConfiguration = new ClientConfiguration(){
-        maxAttempts = 5
+        TimeoutMillis = 500
     }
 });
 ```
