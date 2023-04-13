@@ -1,6 +1,5 @@
 # .NET Core Configuration provider for OCI Key Vault
 
-![Nuget](https://img.shields.io/nuget/v/Mcrio.Configuration.Provider.Docker.Secrets)
 
 This package allows reading secrets from [OCI Key Vault](https://www.oracle.com/security/cloud-security/key-management/) and place there in IConfiguration for consuming.
 
