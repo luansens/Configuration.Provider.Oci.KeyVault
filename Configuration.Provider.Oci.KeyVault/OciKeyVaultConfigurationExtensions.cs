@@ -14,7 +14,7 @@ public static class OciKeyVaultConfigurationExtensions
     /// <returns>The configuration builder.</returns>
     public static IConfigurationBuilder AddOciKeyVault(
         this IConfigurationBuilder builder,
-        IAuthenticationDetailsProvider provider,
+        IBasicAuthenticationDetailsProvider provider,
         string compartmentId,
         Action<OciKeyVaultConfiguration> setupConfiguration
         )
